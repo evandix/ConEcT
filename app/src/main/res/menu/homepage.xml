@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidy.conect.HomepageActivity" >
+
+    <item android:id="@+id/logoutUser"
+        android:title="Log out"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/updateStatus"
+          android:title="Post"
+          android:orderInCategory="100"
+          android:showAsAction="always" />
+</menu>
